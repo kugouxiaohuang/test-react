@@ -1,0 +1,32 @@
+{
+  "name": "react-babel-webpack-demo",
+  "version": "1.0.0",
+  "description": "learning how to init a project",
+  "main": "app/main.jsx",
+  "scripts": {
+    "deploy": "NODE_ENV=production webpack --config webpack.production.config.js"
+  },
+  "keywords": [
+    "es6",
+    "webapp",
+    "react",
+    "webpack"
+  ],
+  "author": "Alice",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.0",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.2"
+  }
+}
